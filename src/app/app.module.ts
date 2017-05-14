@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { $2sxcProvider } from "tosic/sxc/$2sxc.provider";
-import { sxcInstanceProvider } from "tosic/sxc/sxcInstance.dom.provider";
+import { sxcInstanceDomProvider } from "tosic/sxc/sxcInstance.dom.provider";
 
 @NgModule({
   declarations: [
