@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { $2sxcProvider } from "tosic/sxc/$2sxc.provider";
+import { sxcInstanceProvider } from "tosic/sxc/sxcInstance.dom.provider";
 
 @NgModule({
   declarations: [
@@ -14,7 +16,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [$2sxcProvider, sxcInstanceDomProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
