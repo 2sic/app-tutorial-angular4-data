@@ -1,5 +1,6 @@
 
 import { sxcInstanceInterface } from "tosic/sxc/sxcInstanceInterface";
+import { ElementRef } from "@angular/core";
 
 declare const window: any;
 
@@ -13,6 +14,11 @@ export class $2sxc /*Interface*/ {
     constructor() {
         this.globSxc = $2sxcProviderFactory();
     };
+
+    bootstrap(htmlNode:ElementRef) {
+        let sxc = window.$2sxc(htmlNode.nativeElement);
+        console.log('sxc in bootstrap', sxc);
+    }
 
     getInstance(seed: any, cbid?: number) : sxcInstanceInterface {
         return <sxcInstanceInterface> this.globSxc(seed, cbid);

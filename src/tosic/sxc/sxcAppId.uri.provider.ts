@@ -4,7 +4,6 @@ import { $2sxc } from "tosic/sxc/$2sxc";
 
 declare const window: any;
 
-
 export function sxcAppIdUriFactory($2sxc: $2sxc): number {
   return +$2sxc.urlParams("appId");
   // var appElementRef: ElementRef;
