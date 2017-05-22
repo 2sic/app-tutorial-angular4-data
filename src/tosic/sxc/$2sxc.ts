@@ -1,16 +1,25 @@
-import { Injectable } from '@angular/core';
-// import { ActivatedRoute } from "@angular/router";
-// import { sxcInstanceInterface } from "tosic/sxc/sxcInstance.interface";
 
-// declare const window: any;
+import { sxcInstanceInterface } from "tosic/sxc/sxcInstanceInterface";
 
-import { $2sxcInterface } from "tosic/sxc/$2sxcInterface";
+declare const window: any;
 
-// dummy $2sxc object, meant for type-checking
-export function $2sxc(seed: any): $2sxcInterface {
-    let temp = <$2sxcInterface>function (seed: any, cbid: number) { };
-    temp.urlParams = function(name: string): string {
-        throw new Error("Method not implemented.");
+function $2sxcProviderFactory() {
+    return <$2sxc> window.$2sxc;
+}
+
+export class $2sxc /*Interface*/ {
+    private globSxc: any;
+
+    constructor() {
+        this.globSxc = $2sxcProviderFactory();
+    };
+
+    getInstance(seed: any, cbid?: number) : sxcInstanceInterface {
+        return <sxcInstanceInterface> this.globSxc(seed, cbid);
     }
-    return temp;
+
+    urlParams(name: string): string {
+        return <string> this.globSxc.urlParams(name);
+    }
+    
 }

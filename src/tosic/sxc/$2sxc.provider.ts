@@ -1,18 +1,22 @@
-import { Injectable } from '@angular/core';
-import { ActivatedRoute } from "@angular/router";
-import { $2sxcInterface } from "tosic/sxc/$2sxcInterface";
+// import { Injectable } from '@angular/core';
+// import { ActivatedRoute } from "@angular/router";
+// import { $2sxc } from "tosic/sxc/$2sxc";
 
-declare const window: any;
+// declare const window: any;
 
-export function $2sxcProviderFactory() {
-    return <$2sxcInterface> window.$2sxc;
-}
+// export function $2sxcProviderFactory() {
+//     return <$2sxc> window.$2sxc;
+// }
 
-export let $2sxcProvider =
-    {
-        provide: "$2sxc",
-        useFactory: $2sxcProviderFactory,
-    } 
+// export let $2sxcProvider =
+//     {
+//         provide: "$2sxc",
+//         useFactory: $2sxcProviderFactory,
+//     } 
+
+
+
+
 
 
 // @Injectable()

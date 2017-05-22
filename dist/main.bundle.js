@@ -1,1 +1,280 @@
-webpackJsonp([1,4],{"/fcW":function(t,e){function n(t){throw new Error("Cannot find module '"+t+"'.")}n.keys=function(){return[]},n.resolve=n,t.exports=n,n.id="/fcW"},0:function(t,e,n){t.exports=n("x35b")},"0yS+":function(t,e,n){"use strict";function _(){return window.$2sxc}e.a=_},"1A80":function(t,e,n){"use strict";function _(t){return o._15(0,[(t()(),o._16(0,null,null,1,"h1",[],null,null,null,null,null)),(t()(),o._17(null,["\n  ","\n"])),(t()(),o._17(null,["\n\n"])),(t()(),o._16(0,null,null,1,"p",[],null,null,null,null,null)),(t()(),o._17(null,["\n  want to experiment with your own changes? look at the readme.md in this app-folder\n"])),(t()(),o._17(null,["\n"]))],null,function(t,e){t(e,1,0,e.component.title)})}function r(t){return o._15(0,[(t()(),o._16(0,null,null,1,"app-root",[],null,null,null,_,u)),o._18(49152,null,0,s.a,[],null,null)],null,null)}var i=n("Ni5f"),o=n("3j3K"),s=n("YWx4");n.d(e,"a",function(){return a});var l=[i.a],u=o._14({encapsulation:0,styles:l,data:{}}),a=o._19("app-root",s.a,r,{},{},[])},Iksp:function(t,e,n){"use strict";n.d(e,"a",function(){return _});var _=function(){function t(){}return t}()},Ni5f:function(t,e,n){"use strict";n.d(e,"a",function(){return _});var _=["h1[_ngcontent-%COMP%]{color:#369;font-family:Arial,Helvetica,sans-serif;font-size:250%}"]},P9rN:function(t,e,n){"use strict";function _(t,e,n){var _;return _=e.get(t.componentTypes[0]).elementRef,n(_)}var r=n("3j3K"),i=n("Y39V");e.a=_;r.r,r._10,i.a},Y39V:function(t,e,n){"use strict";function _(t){var e=function(t,e){};return e.urlParams=function(t){throw new Error("Method not implemented.")},e}e.a=_},YWx4:function(t,e,n){"use strict";n.d(e,"a",function(){return _});var _=function(){function t(){this.title="Hello Angular 4 Data on DNN! Let' load!"}return t}()},kZql:function(t,e,n){"use strict";n.d(e,"a",function(){return _});var _={production:!0}},kke6:function(t,e,n){"use strict";var _=n("3j3K"),r=n("Iksp"),i=n("2Je8"),o=n("Qbdm"),s=n("NVOs"),l=n("Fzro"),u=n("1A80"),a=n("0yS+"),c=n("P9rN"),h=n("Y39V");n.d(e,"a",function(){return y});var p=this&&this.__extends||function(){var t=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var n in e)e.hasOwnProperty(n)&&(t[n]=e[n])};return function(e,n){function _(){this.constructor=e}t(e,n),e.prototype=null===n?Object.create(n):(_.prototype=n.prototype,new _)}}(),f=function(t){function e(e){return t.call(this,e,[u.a],[u.a])||this}return p(e,t),Object.defineProperty(e.prototype,"_LOCALE_ID_12",{get:function(){return null==this.__LOCALE_ID_12&&(this.__LOCALE_ID_12=_.b(this.parent.get(_.c,null))),this.__LOCALE_ID_12},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_NgLocalization_13",{get:function(){return null==this.__NgLocalization_13&&(this.__NgLocalization_13=new i.a(this._LOCALE_ID_12)),this.__NgLocalization_13},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Compiler_14",{get:function(){return null==this.__Compiler_14&&(this.__Compiler_14=new _.d),this.__Compiler_14},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_APP_ID_15",{get:function(){return null==this.__APP_ID_15&&(this.__APP_ID_15=_.e()),this.__APP_ID_15},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_IterableDiffers_16",{get:function(){return null==this.__IterableDiffers_16&&(this.__IterableDiffers_16=_.f()),this.__IterableDiffers_16},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_KeyValueDiffers_17",{get:function(){return null==this.__KeyValueDiffers_17&&(this.__KeyValueDiffers_17=_.g()),this.__KeyValueDiffers_17},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_DomSanitizer_18",{get:function(){return null==this.__DomSanitizer_18&&(this.__DomSanitizer_18=new o.b(this.parent.get(o.c))),this.__DomSanitizer_18},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Sanitizer_19",{get:function(){return null==this.__Sanitizer_19&&(this.__Sanitizer_19=this._DomSanitizer_18),this.__Sanitizer_19},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_HAMMER_GESTURE_CONFIG_20",{get:function(){return null==this.__HAMMER_GESTURE_CONFIG_20&&(this.__HAMMER_GESTURE_CONFIG_20=new o.d),this.__HAMMER_GESTURE_CONFIG_20},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_EVENT_MANAGER_PLUGINS_21",{get:function(){return null==this.__EVENT_MANAGER_PLUGINS_21&&(this.__EVENT_MANAGER_PLUGINS_21=[new o.e(this.parent.get(o.c)),new o.f(this.parent.get(o.c)),new o.g(this.parent.get(o.c),this._HAMMER_GESTURE_CONFIG_20)]),this.__EVENT_MANAGER_PLUGINS_21},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_EventManager_22",{get:function(){return null==this.__EventManager_22&&(this.__EventManager_22=new o.h(this._EVENT_MANAGER_PLUGINS_21,this.parent.get(_.h))),this.__EventManager_22},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵDomSharedStylesHost_23",{get:function(){return null==this.__ɵDomSharedStylesHost_23&&(this.__ɵDomSharedStylesHost_23=new o.i(this.parent.get(o.c))),this.__ɵDomSharedStylesHost_23},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵDomRendererFactory2_24",{get:function(){return null==this.__ɵDomRendererFactory2_24&&(this.__ɵDomRendererFactory2_24=new o.j(this._EventManager_22,this._ɵDomSharedStylesHost_23)),this.__ɵDomRendererFactory2_24},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_RendererFactory2_25",{get:function(){return null==this.__RendererFactory2_25&&(this.__RendererFactory2_25=this._ɵDomRendererFactory2_24),this.__RendererFactory2_25},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵSharedStylesHost_26",{get:function(){return null==this.__ɵSharedStylesHost_26&&(this.__ɵSharedStylesHost_26=this._ɵDomSharedStylesHost_23),this.__ɵSharedStylesHost_26},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Testability_27",{get:function(){return null==this.__Testability_27&&(this.__Testability_27=new _.i(this.parent.get(_.h))),this.__Testability_27},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Meta_28",{get:function(){return null==this.__Meta_28&&(this.__Meta_28=new o.k(this.parent.get(o.c))),this.__Meta_28},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Title_29",{get:function(){return null==this.__Title_29&&(this.__Title_29=new o.l(this.parent.get(o.c))),this.__Title_29},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵi_30",{get:function(){return null==this.__ɵi_30&&(this.__ɵi_30=new s.a),this.__ɵi_30},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_BrowserXhr_31",{get:function(){return null==this.__BrowserXhr_31&&(this.__BrowserXhr_31=new l.a),this.__BrowserXhr_31},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ResponseOptions_32",{get:function(){return null==this.__ResponseOptions_32&&(this.__ResponseOptions_32=new l.b),this.__ResponseOptions_32},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_XSRFStrategy_33",{get:function(){return null==this.__XSRFStrategy_33&&(this.__XSRFStrategy_33=l.c()),this.__XSRFStrategy_33},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_XHRBackend_34",{get:function(){return null==this.__XHRBackend_34&&(this.__XHRBackend_34=new l.d(this._BrowserXhr_31,this._ResponseOptions_32,this._XSRFStrategy_33)),this.__XHRBackend_34},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_RequestOptions_35",{get:function(){return null==this.__RequestOptions_35&&(this.__RequestOptions_35=new l.e),this.__RequestOptions_35},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Http_36",{get:function(){return null==this.__Http_36&&(this.__Http_36=l.f(this._XHRBackend_34,this._RequestOptions_35)),this.__Http_36},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"__2sxc_37",{get:function(){return null==this.___2sxc_37&&(this.___2sxc_37=a.a()),this.___2sxc_37},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_sxcInstance_38",{get:function(){return null==this.__sxcInstance_38&&(this.__sxcInstance_38=c.a(this._ApplicationRef_5,this,this.parent.get(h.a))),this.__sxcInstance_38},enumerable:!0,configurable:!0}),e.prototype.createInternal=function(){return this._CommonModule_0=new i.b,this._ErrorHandler_1=o.m(),this._APP_INITIALIZER_2=[_.j,o.n(this.parent.get(o.o,null),this.parent.get(_.k,null))],this._ApplicationInitStatus_3=new _.l(this._APP_INITIALIZER_2),this._ɵf_4=new _.m(this.parent.get(_.h),this.parent.get(_.n),this,this._ErrorHandler_1,this.componentFactoryResolver,this._ApplicationInitStatus_3),this._ApplicationRef_5=this._ɵf_4,this._ApplicationModule_6=new _.o(this._ApplicationRef_5),this._BrowserModule_7=new o.p(this.parent.get(o.p,null)),this._ɵba_8=new s.b,this._FormsModule_9=new s.c,this._HttpModule_10=new l.g,this._AppModule_11=new r.a,this._AppModule_11},e.prototype.getInternal=function(t,e){return t===i.b?this._CommonModule_0:t===_.p?this._ErrorHandler_1:t===_.q?this._APP_INITIALIZER_2:t===_.l?this._ApplicationInitStatus_3:t===_.m?this._ɵf_4:t===_.r?this._ApplicationRef_5:t===_.o?this._ApplicationModule_6:t===o.p?this._BrowserModule_7:t===s.b?this._ɵba_8:t===s.c?this._FormsModule_9:t===l.g?this._HttpModule_10:t===r.a?this._AppModule_11:t===_.c?this._LOCALE_ID_12:t===i.c?this._NgLocalization_13:t===_.d?this._Compiler_14:t===_.s?this._APP_ID_15:t===_.t?this._IterableDiffers_16:t===_.u?this._KeyValueDiffers_17:t===o.q?this._DomSanitizer_18:t===_.v?this._Sanitizer_19:t===o.r?this._HAMMER_GESTURE_CONFIG_20:t===o.s?this._EVENT_MANAGER_PLUGINS_21:t===o.h?this._EventManager_22:t===o.i?this._ɵDomSharedStylesHost_23:t===o.j?this._ɵDomRendererFactory2_24:t===_.w?this._RendererFactory2_25:t===o.t?this._ɵSharedStylesHost_26:t===_.i?this._Testability_27:t===o.k?this._Meta_28:t===o.l?this._Title_29:t===s.a?this._ɵi_30:t===l.a?this._BrowserXhr_31:t===l.h?this._ResponseOptions_32:t===l.i?this._XSRFStrategy_33:t===l.d?this._XHRBackend_34:t===l.j?this._RequestOptions_35:t===l.k?this._Http_36:"$2sxc"===t?this.__2sxc_37:"sxcInstance"===t?this._sxcInstance_38:e},e.prototype.destroyInternal=function(){this._ɵf_4.ngOnDestroy(),this.__ɵDomSharedStylesHost_23&&this._ɵDomSharedStylesHost_23.ngOnDestroy()},e}(_.x),y=new _.y(f,r.a)},x35b:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var _=n("3j3K"),r=n("kZql"),i=n("Qbdm"),o=n("kke6");r.a.production&&n.i(_.a)(),n.i(i.a)().bootstrapModuleFactory(o.a)}},[0]);
+webpackJsonp([1,4],{
+
+/***/ 135:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(44)();
+// imports
+
+
+// module
+exports.push([module.i, "h1 {\r\n  color: #369;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  font-size: 250%;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 137:
+/***/ (function(module, exports) {
+
+module.exports = "<h1>\n  {{title}}\n</h1>\n\n<p>\n  want to experiment with your own changes? look at the readme.md in this app-folder\n</p>\n"
+
+/***/ }),
+
+/***/ 162:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(71);
+
+
+/***/ }),
+
+/***/ 48:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return $2sxc; });
+function $2sxcProviderFactory() {
+    return window.$2sxc;
+}
+var $2sxc /*Interface*/ = (function () {
+    function $2sxc() {
+        this.globSxc = $2sxcProviderFactory();
+    }
+    ;
+    $2sxc.prototype.getInstance = function (seed, cbid) {
+        return this.globSxc(seed, cbid);
+    };
+    $2sxc.prototype.urlParams = function (name) {
+        return this.globSxc.urlParams(name);
+    };
+    return $2sxc;
+}());
+
+//# sourceMappingURL=$2sxc.js.map
+
+/***/ }),
+
+/***/ 70:
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 70;
+
+
+/***/ }),
+
+/***/ 71:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(80);
+/* harmony export (immutable) */ __webpack_exports__["Run"] = Run;
+
+
+// import { platformBrowserDnn } from './bootstrap/dnn.bootstrap';
+
+
+if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
+}
+// platformBrowserDnn().bootstrapModule(AppModule);
+var dnnProviders = [
+    {
+        provide: "mid",
+        useValue: 17
+    }
+];
+window.dnnNg = {
+    bootstrapper: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])(dnnProviders).bootstrapModule,
+    modules: [__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]]
+};
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])(dnnProviders).bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
+function Run() {
+    console.log("running...");
+}
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 78:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+var AppComponent = (function () {
+    function AppComponent(/*public $2sxc: $2sxc, private sxcInstance: sxcInstance,*/ mid) {
+        this.mid = mid;
+        this.title = 'Hello Angular 4 Data on DNN! Let\' load!';
+        console.log("mid", mid);
+        // console.log("2sxc: ", $2sxc);
+        // console.log("sxcI: ", sxcInstance);
+        // console.log("get", sxcInstance.get());
+        // console.log("mid", mid);
+    }
+    return AppComponent;
+}());
+AppComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
+        selector: 'app-root',
+        template: __webpack_require__(137),
+        styles: [__webpack_require__(135)]
+    }),
+    __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* Inject */])("mid")),
+    __metadata("design:paramtypes", [Number])
+], AppComponent);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 79:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_tosic_sxc_2sxc__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_tosic_sxc_sxcInstance__ = __webpack_require__(81);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */]
+        ],
+        providers: [__WEBPACK_IMPORTED_MODULE_5_tosic_sxc_2sxc__["a" /* $2sxc */], __WEBPACK_IMPORTED_MODULE_6_tosic_sxc_sxcInstance__["a" /* sxcInstance */]],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 80:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
+var environment = {
+    production: false
+};
+//# sourceMappingURL=environment.js.map
+
+/***/ }),
+
+/***/ 81:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_tosic_sxc_2sxc__ = __webpack_require__(48);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return sxcInstance; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var sxcInstance = (function () {
+    function sxcInstance(app, injector, $2sxc) {
+        //   let element2: ElementRef = this.app['_rootComponents'][0].location;
+        //   let element = injector.get(app.componentTypes[0]).elementRef;
+        this.app = app;
+        this.injector = injector;
+        this.$2sxc = $2sxc;
+        //   this.sxc = $2sxc.getInstance(element);
+        //   this.resolveServiceUrl = this.sxc.resolveServiceUrl;
+        //   this.id = this.sxc.id;
+        //   this.cbid = this.sxc.cbid;
+        //   this
+        //return $2sxc.getInstance(appId);
+    }
+    sxcInstance.prototype.resolveServiceUrl = function (path) { throw "not implemented"; };
+    ;
+    sxcInstance.prototype.isEditMode = function () {
+        throw new Error("Method not implemented.");
+    };
+    sxcInstance.prototype.get = function () {
+        var element2 = this.app['_rootComponents'][0].location;
+        var element = this.injector.get(this.app.componentTypes[0]).elementRef;
+        this.sxc = this.$2sxc.getInstance(element);
+        return this.sxc;
+    };
+    return sxcInstance;
+}());
+sxcInstance = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* ApplicationRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* ApplicationRef */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Injector */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Injector */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_tosic_sxc_2sxc__["a" /* $2sxc */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_tosic_sxc_2sxc__["a" /* $2sxc */]) === "function" && _c || Object])
+], sxcInstance);
+
+var _a, _b, _c;
+//# sourceMappingURL=sxcInstance.js.map
+
+/***/ })
+
+},[162]);
+//# sourceMappingURL=main.bundle.js.map
