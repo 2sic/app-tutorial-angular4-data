@@ -1,7 +1,7 @@
 import { Injectable, ApplicationRef, Injector, ElementRef } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import { sxcInstanceInterface } from "tosic/sxc/sxcInstanceInterface";
-import { SxcNg } from "tosic/sxc/$2sxc";
+import { SxcAngular } from "tosic/sxc/SxcAngular";
 // import { sxcAppId } from "tosic/sxc/sxcAppId.uri.provider";
 
 
@@ -17,7 +17,7 @@ export class sxcInstance implements sxcInstanceInterface {
     isEditMode(): boolean {
         throw new Error("Method not implemented.");
     }
-  constructor(private sxc4ng: SxcNg) {
+  constructor(private sxc4ng: SxcAngular) {
     sxc4ng.moduleId.subscribe((id: number) => {
         this.id = id;
         console.log(`a new moduleId arrived: ${id}`);

@@ -1,6 +1,6 @@
-# DNN App Tutorial Angular 4: Hello DNN
+# DNN App Tutorial Angular 4: DNN with Data from http
 
-This is a trivial hello-world in DNN using Angular 4.
+todo
 
 ## Using / Testing this App
 To give it a test-ride, you'll need 
@@ -10,6 +10,9 @@ To give it a test-ride, you'll need
 3. This app from the releases section
 
 Once you've installed DNN, follow [these instructions on how to install an app](http://2sxc.org/en/install-2sxc-app-package) in case you've never done it before. 
+
+
+# todo
 
 ## How to edit it for experimenting
 There's some stuff you should know, but in case you only want to mess around a bit, here's what you should do:

@@ -1,6 +1,7 @@
 import { Component, Inject, ApplicationRef, ElementRef, Injector } from '@angular/core';
 import { sxcInstance } from "tosic/sxc/sxcInstance";
-import { SxcNg } from "tosic/sxc/$2sxc";
+import { SxcAngular } from "tosic/sxc/SxcAngular";
+import { DnnAppComponent } from "tosic/sxc/dnn-app-component";
 
 
 @Component({
@@ -12,13 +13,12 @@ import { SxcNg } from "tosic/sxc/$2sxc";
   `,
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent extends DnnAppComponent {
   modId: number;
 
-  constructor(private appRef: ApplicationRef, private el:ElementRef, private injector: Injector,
-    public sxcNg: SxcNg, /*, private sxcInstance: sxcInstance,*/
-  ) {
-    sxcNg.autoConfigure(el);
+  constructor(private element:ElementRef, public sxcNg: SxcAngular) {
+    super(element, sxcNg);
+
     sxcNg.moduleId
       .subscribe((id: number) => this.modId = id);
   }

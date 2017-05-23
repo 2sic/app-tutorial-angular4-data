@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, APP_INITIALIZER, ApplicationRef } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { sxcInstance } from "tosic/sxc/sxcInstance";
 import { DnnService } from "dnn/dnn.service";
-import { SxcNg } from "tosic/sxc/$2sxc";
+import { SxcAngular } from "tosic/sxc/SxcAngular";
+import { DevSettingsProvider } from "app/dev-settings.provider";
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,7 +15,7 @@ import { SxcNg } from "tosic/sxc/$2sxc";
     FormsModule,
     HttpModule
   ],
-  providers: [SxcNg /* sxcInstance, DnnService*/    ],
+  providers: [DevSettingsProvider, SxcAngular],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
