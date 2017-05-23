@@ -1,1 +1,562 @@
-webpackJsonp([1,4],{"/fcW":function(t,e){function n(t){throw new Error("Cannot find module '"+t+"'.")}n.keys=function(){return[]},n.resolve=n,t.exports=n,n.id="/fcW"},0:function(t,e,n){t.exports=n("x35b")},"1A80":function(t,e,n){"use strict";function i(t){return o._15(0,[(t()(),o._16(null,["\n    "])),(t()(),o._17(0,null,null,1,"h1",[],null,null,null,null,null)),(t()(),o._16(null,["",""])),(t()(),o._16(null,["\n    "])),(t()(),o._17(0,null,null,2,"p",[],null,null,null,null,null)),(t()(),o._16(null,["moduleId (async pipe): ",""])),o._18(131072,s.f,[o._8]),(t()(),o._16(null,["\n    "])),(t()(),o._17(0,null,null,1,"p",[],null,null,null,null,null)),(t()(),o._16(null,["moduleId (subscription): ",""])),(t()(),o._16(null,["\n  "]))],null,function(t,e){var n=e.component;t(e,2,0,n.title),t(e,5,0,o._19(e,5,0,o._20(e,6).transform(n.sxcNg.moduleId))),t(e,9,0,n.modId)})}function r(t){return o._15(0,[(t()(),o._17(0,null,null,1,"app-root",[],null,null,null,i,c)),o._21(114688,null,0,u.a,[o.V,l.a],null,null)],function(t,e){t(e,1,0)},null)}var _=n("Ni5f"),o=n("3j3K"),s=n("2Je8"),u=n("YWx4"),l=n("Sz/h");n.d(e,"a",function(){return h});var a=[_.a],c=o._14({encapsulation:0,styles:a,data:{}}),h=o._22("app-root",u.a,r,{},{},[])},Iksp:function(t,e,n){"use strict";n.d(e,"a",function(){return i});var i=function(){function t(){}return t}()},Ni5f:function(t,e,n){"use strict";n.d(e,"a",function(){return i});var i=["h1[_ngcontent-%COMP%]{color:#369;font-family:Arial,Helvetica,sans-serif;font-size:250%}"]},QPRk:function(t,e,n){"use strict";n.d(e,"a",function(){return i});var i=function(){function t(t,e){e.autoConfigure(t)}return t}()},"Sz/h":function(t,e,n){"use strict";var i=n("Gvdl");n.n(i);n.d(e,"a",function(){return r});var r=function(){function t(t){var e=this;this.devSettings=t,this.ready=!1,this.midSubject=new i.ReplaySubject,this.tidSubject=new i.ReplaySubject,this.contentBlockIdSubject=new i.ReplaySubject,this.sfSubject=new i.ReplaySubject,this.contextSubject=new i.ReplaySubject,this.sxcSubject=new i.ReplaySubject,t=Object.assign({},{ignoreMissing$2sxc:!1,ignoreMissingServicesFramework:!1},t),this.globSxc=window.$2sxc,void 0!=this.globSxc||t.ignoreMissing$2sxc||console.log("window.$2sxc is null - you probably forgot to include the script before loading angular"),this.moduleId=this.midSubject.asObservable(),this.tabId=this.tidSubject.asObservable(),this.contentBlockId=this.contentBlockIdSubject.asObservable(),this.servicesFramework=this.sfSubject.asObservable(),this.sxc=this.sxcSubject.asObservable(),this.context=this.contextSubject.asObservable(),i.Observable.combineLatest(this.moduleId,this.tabId,this.contentBlockId,this.servicesFramework,this.sxc).subscribe(function(t){return e.contextSubject.next({modulId:t[0],tabId:t[1],contentBlockId:t[2],servicesFramework:t[3],sxc:t[4]})})}return t.prototype.autoConfigure=function(t){if(void 0==this.globSxc){if(!this.devSettings.ignoreMissing$2sxc)throw"cannot autoConfigure - missing $2sxc";this.midSubject.next(this.devSettings.moduleId),this.tidSubject.next(this.devSettings.tabId),this.contentBlockIdSubject.next(0)}else{var e=this.globSxc(t.nativeElement);if(console.log("sxc in bootstrap",e),void 0==e||null==e)throw"couldn't get sxc instance - reason unknown";this.sxcSubject.next(e),this.midSubject.next(e.id),this.contentBlockIdSubject.next(e.cbid);var n=window.$.ServicesFramework(e.id);this.sfSubject.next(n),this.tidSubject.next(n.getTabId())}this.ready=!0},t.prototype.getInstance=function(t,e){return this.globSxc(t,e)},t.prototype.urlParams=function(t){return this.globSxc.urlParams(t)},t}()},YWx4:function(t,e,n){"use strict";var i=n("3j3K"),r=n("Sz/h"),_=n("QPRk");n.d(e,"a",function(){return s});var o=this&&this.__extends||function(){var t=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var n in e)e.hasOwnProperty(n)&&(t[n]=e[n])};return function(e,n){function i(){this.constructor=e}t(e,n),e.prototype=null===n?Object.create(n):(i.prototype=n.prototype,new i)}}(),s=function(t){function e(e,n){var i=t.call(this,e,n)||this;return i.element=e,i.sxcNg=n,i.title="Hello Angular 4 Data on DNN! Let's load!",n.moduleId.subscribe(function(t){return i.modId=t}),i}return o(e,t),e.prototype.ngOnInit=function(){},e.ctorParameters=function(){return[{type:i.V},{type:r.a}]},e}(_.a)},kZql:function(t,e,n){"use strict";n.d(e,"a",function(){return i});var i={production:!0}},kke6:function(t,e,n){"use strict";var i=n("3j3K"),r=n("Iksp"),_=n("2Je8"),o=n("Qbdm"),s=n("NVOs"),u=n("Fzro"),l=n("Sz/h"),a=n("1A80"),c=n("vA8/");n.d(e,"a",function(){return f});var h=this&&this.__extends||function(){var t=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var n in e)e.hasOwnProperty(n)&&(t[n]=e[n])};return function(e,n){function i(){this.constructor=e}t(e,n),e.prototype=null===n?Object.create(n):(i.prototype=n.prototype,new i)}}(),p=function(t){function e(e){return t.call(this,e,[a.a],[a.a])||this}return h(e,t),Object.defineProperty(e.prototype,"_LOCALE_ID_12",{get:function(){return null==this.__LOCALE_ID_12&&(this.__LOCALE_ID_12=i.b(this.parent.get(i.c,null))),this.__LOCALE_ID_12},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_NgLocalization_13",{get:function(){return null==this.__NgLocalization_13&&(this.__NgLocalization_13=new _.a(this._LOCALE_ID_12)),this.__NgLocalization_13},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Compiler_14",{get:function(){return null==this.__Compiler_14&&(this.__Compiler_14=new i.d),this.__Compiler_14},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_APP_ID_15",{get:function(){return null==this.__APP_ID_15&&(this.__APP_ID_15=i.e()),this.__APP_ID_15},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_IterableDiffers_16",{get:function(){return null==this.__IterableDiffers_16&&(this.__IterableDiffers_16=i.f()),this.__IterableDiffers_16},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_KeyValueDiffers_17",{get:function(){return null==this.__KeyValueDiffers_17&&(this.__KeyValueDiffers_17=i.g()),this.__KeyValueDiffers_17},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_DomSanitizer_18",{get:function(){return null==this.__DomSanitizer_18&&(this.__DomSanitizer_18=new o.b(this.parent.get(o.c))),this.__DomSanitizer_18},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Sanitizer_19",{get:function(){return null==this.__Sanitizer_19&&(this.__Sanitizer_19=this._DomSanitizer_18),this.__Sanitizer_19},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_HAMMER_GESTURE_CONFIG_20",{get:function(){return null==this.__HAMMER_GESTURE_CONFIG_20&&(this.__HAMMER_GESTURE_CONFIG_20=new o.d),this.__HAMMER_GESTURE_CONFIG_20},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_EVENT_MANAGER_PLUGINS_21",{get:function(){return null==this.__EVENT_MANAGER_PLUGINS_21&&(this.__EVENT_MANAGER_PLUGINS_21=[new o.e(this.parent.get(o.c)),new o.f(this.parent.get(o.c)),new o.g(this.parent.get(o.c),this._HAMMER_GESTURE_CONFIG_20)]),this.__EVENT_MANAGER_PLUGINS_21},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_EventManager_22",{get:function(){return null==this.__EventManager_22&&(this.__EventManager_22=new o.h(this._EVENT_MANAGER_PLUGINS_21,this.parent.get(i.h))),this.__EventManager_22},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵDomSharedStylesHost_23",{get:function(){return null==this.__ɵDomSharedStylesHost_23&&(this.__ɵDomSharedStylesHost_23=new o.i(this.parent.get(o.c))),this.__ɵDomSharedStylesHost_23},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵDomRendererFactory2_24",{get:function(){return null==this.__ɵDomRendererFactory2_24&&(this.__ɵDomRendererFactory2_24=new o.j(this._EventManager_22,this._ɵDomSharedStylesHost_23)),this.__ɵDomRendererFactory2_24},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_RendererFactory2_25",{get:function(){return null==this.__RendererFactory2_25&&(this.__RendererFactory2_25=this._ɵDomRendererFactory2_24),this.__RendererFactory2_25},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵSharedStylesHost_26",{get:function(){return null==this.__ɵSharedStylesHost_26&&(this.__ɵSharedStylesHost_26=this._ɵDomSharedStylesHost_23),this.__ɵSharedStylesHost_26},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Testability_27",{get:function(){return null==this.__Testability_27&&(this.__Testability_27=new i.i(this.parent.get(i.h))),this.__Testability_27},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Meta_28",{get:function(){return null==this.__Meta_28&&(this.__Meta_28=new o.k(this.parent.get(o.c))),this.__Meta_28},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Title_29",{get:function(){return null==this.__Title_29&&(this.__Title_29=new o.l(this.parent.get(o.c))),this.__Title_29},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵi_30",{get:function(){return null==this.__ɵi_30&&(this.__ɵi_30=new s.a),this.__ɵi_30},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_BrowserXhr_31",{get:function(){return null==this.__BrowserXhr_31&&(this.__BrowserXhr_31=new u.a),this.__BrowserXhr_31},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ResponseOptions_32",{get:function(){return null==this.__ResponseOptions_32&&(this.__ResponseOptions_32=new u.b),this.__ResponseOptions_32},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_XSRFStrategy_33",{get:function(){return null==this.__XSRFStrategy_33&&(this.__XSRFStrategy_33=u.c()),this.__XSRFStrategy_33},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_XHRBackend_34",{get:function(){return null==this.__XHRBackend_34&&(this.__XHRBackend_34=new u.d(this._BrowserXhr_31,this._ResponseOptions_32,this._XSRFStrategy_33)),this.__XHRBackend_34},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_RequestOptions_35",{get:function(){return null==this.__RequestOptions_35&&(this.__RequestOptions_35=new u.e),this.__RequestOptions_35},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Http_36",{get:function(){return null==this.__Http_36&&(this.__Http_36=u.f(this._XHRBackend_34,this._RequestOptions_35)),this.__Http_36},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_SxcAngular_38",{get:function(){return null==this.__SxcAngular_38&&(this.__SxcAngular_38=new l.a(this._DnnDevSettings_37)),this.__SxcAngular_38},enumerable:!0,configurable:!0}),e.prototype.createInternal=function(){return this._CommonModule_0=new _.b,this._ErrorHandler_1=o.m(),this._APP_INITIALIZER_2=[i.j,o.n(this.parent.get(o.o,null),this.parent.get(i.k,null))],this._ApplicationInitStatus_3=new i.l(this._APP_INITIALIZER_2),this._ɵf_4=new i.m(this.parent.get(i.h),this.parent.get(i.n),this,this._ErrorHandler_1,this.componentFactoryResolver,this._ApplicationInitStatus_3),this._ApplicationRef_5=this._ɵf_4,this._ApplicationModule_6=new i.o(this._ApplicationRef_5),this._BrowserModule_7=new o.p(this.parent.get(o.p,null)),this._ɵba_8=new s.b,this._FormsModule_9=new s.c,this._HttpModule_10=new u.g,this._AppModule_11=new r.a,this._DnnDevSettings_37={ignoreMissing$2sxc:!0,ignoreMissingServicesFramework:!0,forceUse:!1,moduleId:17,tabId:36,path:"/"},this._AppModule_11},e.prototype.getInternal=function(t,e){return t===_.b?this._CommonModule_0:t===i.p?this._ErrorHandler_1:t===i.q?this._APP_INITIALIZER_2:t===i.l?this._ApplicationInitStatus_3:t===i.m?this._ɵf_4:t===i.r?this._ApplicationRef_5:t===i.o?this._ApplicationModule_6:t===o.p?this._BrowserModule_7:t===s.b?this._ɵba_8:t===s.c?this._FormsModule_9:t===u.g?this._HttpModule_10:t===r.a?this._AppModule_11:t===i.c?this._LOCALE_ID_12:t===_.c?this._NgLocalization_13:t===i.d?this._Compiler_14:t===i.s?this._APP_ID_15:t===i.t?this._IterableDiffers_16:t===i.u?this._KeyValueDiffers_17:t===o.q?this._DomSanitizer_18:t===i.v?this._Sanitizer_19:t===o.r?this._HAMMER_GESTURE_CONFIG_20:t===o.s?this._EVENT_MANAGER_PLUGINS_21:t===o.h?this._EventManager_22:t===o.i?this._ɵDomSharedStylesHost_23:t===o.j?this._ɵDomRendererFactory2_24:t===i.w?this._RendererFactory2_25:t===o.t?this._ɵSharedStylesHost_26:t===i.i?this._Testability_27:t===o.k?this._Meta_28:t===o.l?this._Title_29:t===s.a?this._ɵi_30:t===u.a?this._BrowserXhr_31:t===u.h?this._ResponseOptions_32:t===u.i?this._XSRFStrategy_33:t===u.d?this._XHRBackend_34:t===u.j?this._RequestOptions_35:t===u.k?this._Http_36:t===c.a?this._DnnDevSettings_37:t===l.a?this._SxcAngular_38:e},e.prototype.destroyInternal=function(){this._ɵf_4.ngOnDestroy(),this.__ɵDomSharedStylesHost_23&&this._ɵDomSharedStylesHost_23.ngOnDestroy()},e}(i.x),f=new i.y(p,r.a)},"vA8/":function(t,e,n){"use strict";n.d(e,"a",function(){return i});var i=function(){function t(){this.ignoreMissing$2sxc=!1,this.ignoreMissingServicesFramework=!1,this.forceUse=!1,this.moduleId=0,this.tabId=0,this.path="/"}return t}()},x35b:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var i=n("3j3K"),r=n("kZql"),_=n("Qbdm"),o=n("kke6");r.a.production&&n.i(i.a)(),n.i(_.a)().bootstrapModuleFactory(o.a)}},[0]);
+webpackJsonp([1,4],{
+
+/***/ 128:
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 128;
+
+
+/***/ }),
+
+/***/ 129:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(138);
+
+
+
+
+if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
+}
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 135:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_tosic_sxc_SxcAngular__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dnn_app_component__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_tosic_sxc_sxc_content_service__ = __webpack_require__(82);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var AppComponent = (function (_super) {
+    __extends(AppComponent, _super);
+    function AppComponent(element, sxcNg, crf) {
+        var _this = _super.call(this, element, sxcNg) || this;
+        _this.element = element;
+        _this.sxcNg = sxcNg;
+        _this.crf = crf;
+        _this.title = 'Hello Angular 4 Data on DNN! Let\'s load now!';
+        var person = crf.resource("Person");
+        var personObservable = person.get();
+        personObservable.subscribe(function (res) {
+            console.log('got person', res);
+        });
+        sxcNg.moduleId
+            .subscribe(function (id) { return _this.modId = id; });
+        return _this;
+    }
+    AppComponent.prototype.ngOnInit = function () {
+        // let's try stuff...
+    };
+    return AppComponent;
+}(__WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dnn_app_component__["a" /* DnnAppComponent */]));
+AppComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
+        selector: 'app-root',
+        template: "\n    <h1>{{title}}</h1>\n    <p>moduleId (async pipe): {{sxcNg.moduleId | async}}</p>\n    <p>moduleId (subscription): {{modId}}</p>\n  ",
+        styles: [__webpack_require__(195)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_tosic_sxc_SxcAngular__["a" /* SxcAngular */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_tosic_sxc_SxcAngular__["a" /* SxcAngular */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3_tosic_sxc_sxc_content_service__["a" /* ContentResourceFactory */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_tosic_sxc_sxc_content_service__["a" /* ContentResourceFactory */]) === "function" && _c || Object])
+], AppComponent);
+
+var _a, _b, _c;
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 136:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_tosic_sxc_SxcAngular__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_app_dev_settings_provider__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_tosic_sxc_sxc_content_service__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_tosic_sxc_http_interceptor_service_provider__ = __webpack_require__(140);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
+        declarations: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */]
+        ],
+        providers: [__WEBPACK_IMPORTED_MODULE_6_app_dev_settings_provider__["a" /* DevSettingsProvider */], __WEBPACK_IMPORTED_MODULE_5_tosic_sxc_SxcAngular__["a" /* SxcAngular */], __WEBPACK_IMPORTED_MODULE_7_tosic_sxc_sxc_content_service__["a" /* ContentResourceFactory */], __WEBPACK_IMPORTED_MODULE_8_tosic_sxc_http_interceptor_service_provider__["a" /* Http2SxcHttpProvider */]],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 137:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tosic_sxc_dnn_dev_settings__ = __webpack_require__(81);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DevSettingsProvider; });
+
+var DevSettingsProvider = {
+    provide: __WEBPACK_IMPORTED_MODULE_0_tosic_sxc_dnn_dev_settings__["a" /* DnnDevSettings */],
+    useValue: {
+        ignoreMissing$2sxc: true,
+        ignoreMissingServicesFramework: true,
+        forceUse: false,
+        moduleId: 17,
+        tabId: 36,
+        path: "/"
+    },
+};
+//# sourceMappingURL=dev-settings.provider.js.map
+
+/***/ }),
+
+/***/ 138:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
+var environment = {
+    production: false
+};
+//# sourceMappingURL=environment.js.map
+
+/***/ }),
+
+/***/ 139:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DnnAppComponent; });
+var DnnAppComponent = (function () {
+    function DnnAppComponent(element, sxcNg) {
+        sxcNg.autoConfigure(element);
+    }
+    return DnnAppComponent;
+}());
+
+//# sourceMappingURL=dnn-app-component.js.map
+
+/***/ }),
+
+/***/ 140:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__http_interceptor_service__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_SxcAngular__ = __webpack_require__(39);
+/* unused harmony export Http2SxcProviderFactory */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Http2SxcHttpProvider; });
+
+
+
+function Http2SxcProviderFactory(backend, defaultOptions, sxc) {
+    return new __WEBPACK_IMPORTED_MODULE_0__http_interceptor_service__["a" /* HttpInDnn */](backend, defaultOptions, sxc);
+}
+var Http2SxcHttpProvider = {
+    provide: __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */],
+    useFactory: Http2SxcProviderFactory,
+    deps: [__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* XHRBackend */], __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */], __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_SxcAngular__["a" /* SxcAngular */]]
+};
+//# sourceMappingURL=http-interceptor.service.provider.js.map
+
+/***/ }),
+
+/***/ 141:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_SxcAngular__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HttpInDnn; });
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var HttpInDnn = (function (_super) {
+    __extends(HttpInDnn, _super);
+    function HttpInDnn(backend, defaultOptions, sxcNg) {
+        var _this = _super.call(this, backend, defaultOptions) || this;
+        _this.sxcNg = sxcNg;
+        return _this;
+    }
+    HttpInDnn.prototype.request = function (url, options) {
+        var _this = this;
+        if (options === void 0) { options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */](); }
+        var subject = new __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__["Subject"]();
+        this.sxcNg.context.take(1).subscribe(function (res) {
+            // todo: better dev mode detection using environment
+            var isDevMode = window.location.hostname === 'localhost';
+            if (typeof url === 'string') {
+                url = res.sxc.resolveServiceUrl(url);
+                _this.configure(options, res);
+            }
+            else {
+                url.url = res.sxc.resolveServiceUrl(url.url);
+                _this.configure(url, res);
+            }
+            console.log("options", options);
+            console.log('url', url);
+            _super.prototype.request.call(_this, url) //, options)
+                .subscribe(subject.next);
+        }); //.catch(e => console.error(e))
+        return subject.asObservable();
+    };
+    HttpInDnn.prototype.configure = function (options, params) {
+        if (!options.headers)
+            options.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["e" /* Headers */]();
+        options.headers.append('ModuleId', params.modulId.toString());
+        options.headers.append('TabId', params.tabId.toString());
+        options.headers.append('ContentBlockId', params.contentBlockId.toString());
+        options.headers.append('RequestVerificationToken', params.servicesFramework.getAntiForgeryValue());
+        options.headers.append('X-Debugging-Hint', 'bootstrapped by 2sxc4ng');
+        return options;
+    };
+    return HttpInDnn;
+}(__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]));
+HttpInDnn = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["f" /* ConnectionBackend */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["f" /* ConnectionBackend */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_SxcAngular__["a" /* SxcAngular */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_SxcAngular__["a" /* SxcAngular */]) === "function" && _c || Object])
+], HttpInDnn);
+
+var _a, _b, _c;
+//# sourceMappingURL=http-interceptor.service.js.map
+
+/***/ }),
+
+/***/ 195:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(73)();
+// imports
+
+
+// module
+exports.push([module.i, "h1 {\r\n  color: #369;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  font-size: 250%;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 39:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dnn_dev_settings__ = __webpack_require__(81);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SxcAngular; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+var SxcAngular = (function () {
+    function SxcAngular(devSettings) {
+        var _this = this;
+        this.devSettings = devSettings;
+        this.ready = false;
+        this.midSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
+        this.tidSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
+        this.contentBlockIdSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
+        this.sfSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
+        this.contextSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
+        this.sxcSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
+        // make sure we have a devSettings, which at least has the minimal ignore-settings
+        devSettings = Object.assign({}, {
+            ignoreMissing$2sxc: false,
+            ignoreMissingServicesFramework: false
+        }, devSettings);
+        this.globSxc = window.$2sxc;
+        if (this.globSxc == undefined && !devSettings.ignoreMissing$2sxc)
+            console.log('window.$2sxc is null - you probably forgot to include the script before loading angular');
+        this.moduleId = this.midSubject.asObservable();
+        this.tabId = this.tidSubject.asObservable();
+        this.contentBlockId = this.contentBlockIdSubject.asObservable();
+        this.servicesFramework = this.sfSubject.asObservable();
+        this.sxc = this.sxcSubject.asObservable();
+        this.context = this.contextSubject.asObservable();
+        __WEBPACK_IMPORTED_MODULE_1_rxjs__["Observable"].combineLatest(this.moduleId, this.tabId, this.contentBlockId, this.servicesFramework, this.sxc)
+            .subscribe(function (res) {
+            console.log('testing');
+            _this.contextSubject.next({
+                modulId: res[0],
+                tabId: res[1],
+                contentBlockId: res[2],
+                servicesFramework: res[3],
+                sxc: res[4]
+            });
+        });
+        this.context.subscribe(function (x) { return console.log('inside', x); });
+    }
+    ;
+    SxcAngular.prototype.autoConfigure = function (htmlNode) {
+        var _this = this;
+        if (this.globSxc == undefined) {
+            if (!this.devSettings.ignoreMissing$2sxc)
+                throw "cannot autoConfigure - missing $2sxc";
+            this.midSubject.next(this.devSettings.moduleId);
+            this.tidSubject.next(this.devSettings.tabId);
+            this.contentBlockIdSubject.next(0);
+        }
+        else {
+            var sxc = this.globSxc(htmlNode.nativeElement);
+            console.log('sxc in bootstrap', sxc);
+            if (sxc == undefined || sxc == null)
+                throw "couldn't get sxc instance - reason unknown";
+            // update/publish moduleId
+            this.midSubject.next(sxc.id);
+            this.contentBlockIdSubject.next(sxc.cbid);
+            this.sxcSubject.next(sxc);
+            this.sxcInstance = sxc;
+            // check if DNN Services framework exists...
+            if (window.$ && window.$.ServicesFramework) {
+                // run timer till sf is ready, but max for a second
+                var timer = __WEBPACK_IMPORTED_MODULE_1_rxjs__["Observable"].timer(0, 100) // try every 100ms
+                    .take(10) // max 10x
+                    .subscribe(function (x) {
+                    // this must be access AFTER a delay, as the SF is not be ready yet...
+                    var sf = window.$.ServicesFramework(_this.sxcInstance.id);
+                    if (sf.getAntiForgeryValue()) {
+                        if (timer)
+                            timer.unsubscribe();
+                        if (window.dnn && window.dnn.vars && window.dnn.vars.length == 0)
+                            window.dnn.vars = null; // must reset, as they are usually incorrect at this time
+                        _this.sfSubject.next(sf);
+                        _this.tidSubject.next(sf.getTabId());
+                    }
+                    _this.ready = true;
+                });
+            }
+            else {
+                if (!this.devSettings.ignoreMissingServicesFramework)
+                    throw "DNN Services Framework is missing, and it's not allowed according to devSettings. Either set devSettings to ignore this, or ensure it's there";
+                this.tidSubject.next(this.devSettings.tabId);
+                this.sfSubject.next(null);
+            }
+        }
+    };
+    SxcAngular.prototype.getInstance = function (seed, cbid) {
+        return this.globSxc(seed, cbid);
+    };
+    SxcAngular.prototype.urlParams = function (name) {
+        return this.globSxc.urlParams(name);
+    };
+    return SxcAngular;
+}());
+SxcAngular = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dnn_dev_settings__["a" /* DnnDevSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dnn_dev_settings__["a" /* DnnDevSettings */]) === "function" && _a || Object])
+], SxcAngular);
+
+var _a;
+//# sourceMappingURL=SxcAngular.js.map
+
+/***/ }),
+
+/***/ 473:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(129);
+
+
+/***/ }),
+
+/***/ 81:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DnnDevSettings; });
+// This lets you configure test-values during development
+var DnnDevSettings = (function () {
+    function DnnDevSettings() {
+        this.ignoreMissing$2sxc = false;
+        this.ignoreMissingServicesFramework = false;
+        this.forceUse = false;
+        this.moduleId = 0;
+        this.tabId = 0;
+        this.path = "/";
+    }
+    return DnnDevSettings;
+}());
+
+//# sourceMappingURL=dnn-dev-settings.js.map
+
+/***/ }),
+
+/***/ 82:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(37);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContentResourceFactory; });
+/* unused harmony export ContentResource */
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ContentResourceFactory = (function () {
+    function ContentResourceFactory(http) {
+        this.http = http;
+    }
+    ContentResourceFactory.prototype.resource = function (typeName) {
+        return new ContentResource(this.http, typeName);
+    };
+    return ContentResourceFactory;
+}());
+ContentResourceFactory = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _a || Object])
+], ContentResourceFactory);
+
+var ContentResource = (function () {
+    function ContentResource(http, typeName) {
+        this.http = http;
+        this.typeName = typeName;
+    }
+    ContentResource.prototype.get = function (id) {
+        if (id === void 0) { id = null; }
+        var url = "app/auto/content/" + this.typeName;
+        if (id)
+            url += "/" + id.toString();
+        var head = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["e" /* Headers */]();
+        head.append("hello", "there");
+        return this.http.get(url, { headers: head });
+        // this.http.get(`${this.base + this.path}/DirectoryItem`, { headers: this.headers })
+        //   .map(res => res.json().map((entry: DirectoryEntry) => {
+        //     entry.Logo = this.base + entry.Logo;
+        //     return entry;
+        //   }))
+        //   .subscribe(entries => this.entrySubject.next(entries));
+    };
+    return ContentResource;
+}());
+ContentResource = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _b || Object, String])
+], ContentResource);
+
+var _a, _b;
+//# sourceMappingURL=sxc-content.service.js.map
+
+/***/ })
+
+},[473]);
+//# sourceMappingURL=main.bundle.js.map

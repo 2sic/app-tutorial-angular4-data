@@ -2,6 +2,7 @@ import { Component, Inject, ApplicationRef, ElementRef, Injector } from '@angula
 import { sxcInstance } from "tosic/sxc/sxcInstance";
 import { SxcAngular } from "tosic/sxc/SxcAngular";
 import { DnnAppComponent } from "tosic/sxc/dnn-app-component";
+import { ContentResourceFactory } from "tosic/sxc/sxc-content.service";
 
 
 @Component({
@@ -16,8 +17,18 @@ import { DnnAppComponent } from "tosic/sxc/dnn-app-component";
 export class AppComponent extends DnnAppComponent {
   modId: number;
 
-  constructor(private element:ElementRef, public sxcNg: SxcAngular) {
+  constructor(private element:ElementRef, public sxcNg: SxcAngular, private crf: ContentResourceFactory) {
     super(element, sxcNg);
+
+    let person = crf.resource("Person");
+
+    let personObservable = person.get();
+
+    personObservable.subscribe(res => {
+      console.log('got person', res);
+
+    })
+
 
     sxcNg.moduleId
       .subscribe((id: number) => this.modId = id);
@@ -26,5 +37,5 @@ export class AppComponent extends DnnAppComponent {
   ngOnInit(){
     // let's try stuff...
   }
-  title = 'Hello Angular 4 Data on DNN! Let\'s load!';
+  title = 'Hello Angular 4 Data on DNN! Let\'s load now!';
 }
