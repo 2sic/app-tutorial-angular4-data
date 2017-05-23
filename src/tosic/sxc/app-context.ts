@@ -2,12 +2,12 @@
 // These are the parameters which make up the current context / state of this app
 // It's mainly needed to ensure that the Http Service is correctly setup
 
-import { sxcInstanceInterface } from "tosic/sxc/sxcInstanceInterface";
+import { SxcInstance } from "tosic/sxc/sxc-instance";
 
-export class contextParameters {
-  modulId: number;
+export class AppContext {
+  moduleId: number;
   tabId: number;
   contentBlockId: number;
-  servicesFramework: any;
-  sxc: sxcInstanceInterface;
+  antiForgeryToken: string;
+  sxc: SxcInstance;
 }

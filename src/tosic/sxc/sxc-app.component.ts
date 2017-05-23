@@ -6,7 +6,7 @@ import { ElementRef } from '@angular/core';
 import { SxcAngular } from "tosic/sxc/SxcAngular";
 
 
-export class DnnAppComponent {
+export class SxcAppComponent {
   constructor(element:ElementRef, sxcNg: SxcAngular) {
     sxcNg.autoConfigure(element);
   }

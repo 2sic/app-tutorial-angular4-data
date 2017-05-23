@@ -1,7 +1,7 @@
 import { Component, Inject, ApplicationRef, ElementRef, Injector } from '@angular/core';
-import { sxcInstance } from "tosic/sxc/sxcInstance";
+import { SxcInstance } from "tosic/sxc/sxc-instance";
 import { SxcAngular } from "tosic/sxc/SxcAngular";
-import { DnnAppComponent } from "tosic/sxc/dnn-app-component";
+import { SxcAppComponent } from "tosic/sxc/sxc-app.component";
 import { ContentResourceFactory } from "tosic/sxc/sxc-content.service";
 
 
@@ -14,7 +14,7 @@ import { ContentResourceFactory } from "tosic/sxc/sxc-content.service";
   `,
   styleUrls: ['./app.component.css']
 })
-export class AppComponent extends DnnAppComponent {
+export class AppComponent extends SxcAppComponent {
   modId: number;
 
   constructor(private element:ElementRef, public sxcNg: SxcAngular, private crf: ContentResourceFactory) {

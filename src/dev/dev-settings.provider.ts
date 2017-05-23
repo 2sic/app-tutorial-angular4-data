@@ -1,6 +1,6 @@
 
 import { Provider } from "@angular/core";
-import { DnnDevSettings } from "tosic/sxc/dnn-dev-settings";
+import { DnnDevSettings } from "tosic/sxc/dev/dnn-dev-settings";
 
 export let DevSettingsProvider : Provider = {
     provide: DnnDevSettings,
@@ -12,8 +12,4 @@ export let DevSettingsProvider : Provider = {
         tabId: 36,
         path: "/"
     },
-}
-
-interface test {
-    tabId: number;
 }

@@ -41,7 +41,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_tosic_sxc_SxcAngular__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dnn_app_component__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_sxc_app_component__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_tosic_sxc_sxc_content_service__ = __webpack_require__(82);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __extends = (this && this.__extends) || (function () {
@@ -88,7 +88,7 @@ var AppComponent = (function (_super) {
         // let's try stuff...
     };
     return AppComponent;
-}(__WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dnn_app_component__["a" /* DnnAppComponent */]));
+}(__WEBPACK_IMPORTED_MODULE_2_tosic_sxc_sxc_app_component__["a" /* SxcAppComponent */]));
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-root',
@@ -113,9 +113,9 @@ var _a, _b, _c;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_tosic_sxc_SxcAngular__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_app_dev_settings_provider__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_tosic_sxc_sxc_content_service__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_tosic_sxc_http_interceptor_service_provider__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_tosic_sxc_sxc_content_service__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_tosic_sxc_sxc_http_provider__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_dev_dev_settings_provider__ = __webpack_require__(137);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -145,7 +145,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */]
         ],
-        providers: [__WEBPACK_IMPORTED_MODULE_6_app_dev_settings_provider__["a" /* DevSettingsProvider */], __WEBPACK_IMPORTED_MODULE_5_tosic_sxc_SxcAngular__["a" /* SxcAngular */], __WEBPACK_IMPORTED_MODULE_7_tosic_sxc_sxc_content_service__["a" /* ContentResourceFactory */], __WEBPACK_IMPORTED_MODULE_8_tosic_sxc_http_interceptor_service_provider__["a" /* Http2SxcHttpProvider */]],
+        providers: [__WEBPACK_IMPORTED_MODULE_8_dev_dev_settings_provider__["a" /* DevSettingsProvider */], __WEBPACK_IMPORTED_MODULE_5_tosic_sxc_SxcAngular__["a" /* SxcAngular */], __WEBPACK_IMPORTED_MODULE_6_tosic_sxc_sxc_content_service__["a" /* ContentResourceFactory */], __WEBPACK_IMPORTED_MODULE_7_tosic_sxc_sxc_http_provider__["a" /* SxcHttpProvider */]],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
@@ -158,11 +158,11 @@ AppModule = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tosic_sxc_dnn_dev_settings__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tosic_sxc_dev_dnn_dev_settings__ = __webpack_require__(81);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DevSettingsProvider; });
 
 var DevSettingsProvider = {
-    provide: __WEBPACK_IMPORTED_MODULE_0_tosic_sxc_dnn_dev_settings__["a" /* DnnDevSettings */],
+    provide: __WEBPACK_IMPORTED_MODULE_0_tosic_sxc_dev_dnn_dev_settings__["a" /* DnnDevSettings */],
     useValue: {
         ignoreMissing$2sxc: true,
         ignoreMissingServicesFramework: true,
@@ -197,15 +197,15 @@ var environment = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DnnAppComponent; });
-var DnnAppComponent = (function () {
-    function DnnAppComponent(element, sxcNg) {
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SxcAppComponent; });
+var SxcAppComponent = (function () {
+    function SxcAppComponent(element, sxcNg) {
         sxcNg.autoConfigure(element);
     }
-    return DnnAppComponent;
+    return SxcAppComponent;
 }());
 
-//# sourceMappingURL=dnn-app-component.js.map
+//# sourceMappingURL=sxc-app.component.js.map
 
 /***/ }),
 
@@ -213,23 +213,23 @@ var DnnAppComponent = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__http_interceptor_service__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sxc_http__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_SxcAngular__ = __webpack_require__(39);
-/* unused harmony export Http2SxcProviderFactory */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Http2SxcHttpProvider; });
+/* unused harmony export DnnHttpProviderFactory */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SxcHttpProvider; });
 
 
 
-function Http2SxcProviderFactory(backend, defaultOptions, sxc) {
-    return new __WEBPACK_IMPORTED_MODULE_0__http_interceptor_service__["a" /* HttpInDnn */](backend, defaultOptions, sxc);
+function DnnHttpProviderFactory(backend, defaultOptions, sxc) {
+    return new __WEBPACK_IMPORTED_MODULE_0__sxc_http__["a" /* SxcHttp */](backend, defaultOptions, sxc);
 }
-var Http2SxcHttpProvider = {
+var SxcHttpProvider = {
     provide: __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */],
-    useFactory: Http2SxcProviderFactory,
+    useFactory: DnnHttpProviderFactory,
     deps: [__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* XHRBackend */], __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */], __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_SxcAngular__["a" /* SxcAngular */]]
 };
-//# sourceMappingURL=http-interceptor.service.provider.js.map
+//# sourceMappingURL=sxc-http.provider.js.map
 
 /***/ }),
 
@@ -242,7 +242,7 @@ var Http2SxcHttpProvider = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_SxcAngular__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HttpInDnn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SxcHttp; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -266,14 +266,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var HttpInDnn = (function (_super) {
-    __extends(HttpInDnn, _super);
-    function HttpInDnn(backend, defaultOptions, sxcNg) {
+var SxcHttp = (function (_super) {
+    __extends(SxcHttp, _super);
+    function SxcHttp(backend, defaultOptions, sxcNg) {
         var _this = _super.call(this, backend, defaultOptions) || this;
         _this.sxcNg = sxcNg;
         return _this;
     }
-    HttpInDnn.prototype.request = function (url, options) {
+    SxcHttp.prototype.request = function (url, options) {
         var _this = this;
         if (options === void 0) { options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */](); }
         var subject = new __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__["Subject"]();
@@ -295,25 +295,25 @@ var HttpInDnn = (function (_super) {
         }); //.catch(e => console.error(e))
         return subject.asObservable();
     };
-    HttpInDnn.prototype.configure = function (options, params) {
+    SxcHttp.prototype.configure = function (options, params) {
         if (!options.headers)
             options.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["e" /* Headers */]();
-        options.headers.append('ModuleId', params.modulId.toString());
+        options.headers.append('ModuleId', params.moduleId.toString());
         options.headers.append('TabId', params.tabId.toString());
         options.headers.append('ContentBlockId', params.contentBlockId.toString());
-        options.headers.append('RequestVerificationToken', params.servicesFramework.getAntiForgeryValue());
-        options.headers.append('X-Debugging-Hint', 'bootstrapped by 2sxc4ng');
+        options.headers.append('RequestVerificationToken', params.antiForgeryToken);
+        options.headers.append('X-Debugging-Hint', 'bootstrapped by Sxc4Angular');
         return options;
     };
-    return HttpInDnn;
+    return SxcHttp;
 }(__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]));
-HttpInDnn = __decorate([
+SxcHttp = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["f" /* ConnectionBackend */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["f" /* ConnectionBackend */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_SxcAngular__["a" /* SxcAngular */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_SxcAngular__["a" /* SxcAngular */]) === "function" && _c || Object])
-], HttpInDnn);
+], SxcHttp);
 
 var _a, _b, _c;
-//# sourceMappingURL=http-interceptor.service.js.map
+//# sourceMappingURL=sxc-http.js.map
 
 /***/ }),
 
@@ -342,7 +342,7 @@ module.exports = module.exports.toString();
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dnn_dev_settings__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dev_dnn_dev_settings__ = __webpack_require__(81);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SxcAngular; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -363,11 +363,10 @@ var SxcAngular = (function () {
     function SxcAngular(devSettings) {
         var _this = this;
         this.devSettings = devSettings;
-        this.ready = false;
         this.midSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
         this.tidSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
-        this.contentBlockIdSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
-        this.sfSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
+        this.cbIdSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
+        this.afTokenSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
         this.contextSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
         this.sxcSubject = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["ReplaySubject"]();
         // make sure we have a devSettings, which at least has the minimal ignore-settings
@@ -377,25 +376,21 @@ var SxcAngular = (function () {
         }, devSettings);
         this.globSxc = window.$2sxc;
         if (this.globSxc == undefined && !devSettings.ignoreMissing$2sxc)
-            console.log('window.$2sxc is null - you probably forgot to include the script before loading angular');
+            throw 'window.$2sxc is null - you probably forgot to include the script before loading angular';
         this.moduleId = this.midSubject.asObservable();
         this.tabId = this.tidSubject.asObservable();
-        this.contentBlockId = this.contentBlockIdSubject.asObservable();
-        this.servicesFramework = this.sfSubject.asObservable();
+        this.contentBlockId = this.cbIdSubject.asObservable();
+        this.antiForgeryToken = this.afTokenSubject.asObservable();
         this.sxc = this.sxcSubject.asObservable();
         this.context = this.contextSubject.asObservable();
-        __WEBPACK_IMPORTED_MODULE_1_rxjs__["Observable"].combineLatest(this.moduleId, this.tabId, this.contentBlockId, this.servicesFramework, this.sxc)
-            .subscribe(function (res) {
-            console.log('testing');
-            _this.contextSubject.next({
-                modulId: res[0],
-                tabId: res[1],
-                contentBlockId: res[2],
-                servicesFramework: res[3],
-                sxc: res[4]
-            });
-        });
-        this.context.subscribe(function (x) { return console.log('inside', x); });
+        __WEBPACK_IMPORTED_MODULE_1_rxjs__["Observable"].combineLatest(this.moduleId, this.tabId, this.contentBlockId, this.sxc, this.antiForgeryToken)
+            .subscribe(function (res) { return _this.contextSubject.next({
+            moduleId: res[0],
+            tabId: res[1],
+            contentBlockId: res[2],
+            sxc: res[3],
+            antiForgeryToken: res[4]
+        }); });
     }
     ;
     SxcAngular.prototype.autoConfigure = function (htmlNode) {
@@ -405,18 +400,16 @@ var SxcAngular = (function () {
                 throw "cannot autoConfigure - missing $2sxc";
             this.midSubject.next(this.devSettings.moduleId);
             this.tidSubject.next(this.devSettings.tabId);
-            this.contentBlockIdSubject.next(0);
+            this.cbIdSubject.next(0);
         }
         else {
-            var sxc = this.globSxc(htmlNode.nativeElement);
-            console.log('sxc in bootstrap', sxc);
+            var sxc = this.sxcInstance = this.globSxc(htmlNode.nativeElement);
             if (sxc == undefined || sxc == null)
                 throw "couldn't get sxc instance - reason unknown";
             // update/publish moduleId
             this.midSubject.next(sxc.id);
-            this.contentBlockIdSubject.next(sxc.cbid);
+            this.cbIdSubject.next(sxc.cbid);
             this.sxcSubject.next(sxc);
-            this.sxcInstance = sxc;
             // check if DNN Services framework exists...
             if (window.$ && window.$.ServicesFramework) {
                 // run timer till sf is ready, but max for a second
@@ -426,36 +419,28 @@ var SxcAngular = (function () {
                     // this must be access AFTER a delay, as the SF is not be ready yet...
                     var sf = window.$.ServicesFramework(_this.sxcInstance.id);
                     if (sf.getAntiForgeryValue()) {
-                        if (timer)
-                            timer.unsubscribe();
+                        timer.unsubscribe();
                         if (window.dnn && window.dnn.vars && window.dnn.vars.length == 0)
-                            window.dnn.vars = null; // must reset, as they are usually incorrect at this time
-                        _this.sfSubject.next(sf);
+                            window.dnn.vars = null; // must reset, as they are incorrectly initialized when accessed early
                         _this.tidSubject.next(sf.getTabId());
+                        _this.afTokenSubject.next(sf.getAntiForgeryValue());
                     }
-                    _this.ready = true;
                 });
             }
             else {
                 if (!this.devSettings.ignoreMissingServicesFramework)
                     throw "DNN Services Framework is missing, and it's not allowed according to devSettings. Either set devSettings to ignore this, or ensure it's there";
                 this.tidSubject.next(this.devSettings.tabId);
-                this.sfSubject.next(null);
+                this.afTokenSubject.next(this.devSettings.antiForgeryToken);
             }
         }
-    };
-    SxcAngular.prototype.getInstance = function (seed, cbid) {
-        return this.globSxc(seed, cbid);
-    };
-    SxcAngular.prototype.urlParams = function (name) {
-        return this.globSxc.urlParams(name);
     };
     return SxcAngular;
 }());
 SxcAngular = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
     __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dnn_dev_settings__["a" /* DnnDevSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dnn_dev_settings__["a" /* DnnDevSettings */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dev_dnn_dev_settings__["a" /* DnnDevSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_tosic_sxc_dev_dnn_dev_settings__["a" /* DnnDevSettings */]) === "function" && _a || Object])
 ], SxcAngular);
 
 var _a;

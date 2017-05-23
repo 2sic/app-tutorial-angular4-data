@@ -4,12 +4,12 @@ import { Observable } from 'rxjs/Rx';
 import { ActivatedRoute, Router } from "@angular/router";
 import { SxcAngular } from "tosic/sxc/SxcAngular";
 import { ReplaySubject } from "rxjs/ReplaySubject";
-import { sxcInstanceInterface } from "tosic/sxc/sxcInstanceInterface";
+import { SxcInstance } from "tosic/sxc/sxc-instance";
 import { Subject } from "rxjs/Subject";
-import { contextParameters } from "tosic/sxc/context-parameters";
+import { AppContext } from "tosic/sxc/app-context";
 
 @Injectable()
-export class HttpInDnn extends Http {
+export class SxcHttp extends Http {
   constructor(
     backend: ConnectionBackend,
     defaultOptions: RequestOptions,
@@ -43,13 +43,13 @@ export class HttpInDnn extends Http {
     return subject.asObservable();
   }
 
-  private configure(options: RequestOptionsArgs | Request, params: contextParameters): RequestOptionsArgs {
+  private configure(options: RequestOptionsArgs | Request, params: AppContext): RequestOptionsArgs {
     if (!options.headers) options.headers = new Headers();
-    options.headers.append('ModuleId', params.modulId.toString());
+    options.headers.append('ModuleId', params.moduleId.toString());
     options.headers.append('TabId', params.tabId.toString());
     options.headers.append('ContentBlockId', params.contentBlockId.toString());
-    options.headers.append('RequestVerificationToken', params.servicesFramework.getAntiForgeryValue());
-    options.headers.append('X-Debugging-Hint', 'bootstrapped by 2sxc4ng');
+    options.headers.append('RequestVerificationToken', params.antiForgeryToken);
+    options.headers.append('X-Debugging-Hint', 'bootstrapped by Sxc4Angular');
     return options;
   }
 }
