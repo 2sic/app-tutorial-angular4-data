@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import {   Http,   ConnectionBackend,   RequestOptions,  RequestOptionsArgs,  Request,  Response,  Headers } from '@angular/http';
+import { Http, ConnectionBackend, RequestOptions, RequestOptionsArgs, Request, Response, Headers } from '@angular/http';
 import { Observable } from 'rxjs/Rx';
 import { ActivatedRoute, Router } from "@angular/router";
-import { SxcAngular } from "tosic/sxc/SxcAngular";
+import { SxcAngular } from "tosic/sxc/sxc-angular";
 import { ReplaySubject } from "rxjs/ReplaySubject";
 import { SxcInstance } from "tosic/sxc/sxc-instance";
 import { Subject } from "rxjs/Subject";
@@ -18,28 +18,26 @@ export class SxcHttp extends Http {
     super(backend, defaultOptions);
   }
 
-  request(url: string | Request, options: RequestOptionsArgs = new RequestOptions()): Observable<Response> {
+  request(urlOrRequest: string | Request, options: RequestOptionsArgs = new RequestOptions()): Observable<Response> {
     let subject = new Subject<Response>();
-    this.sxcNg.context.take(1).subscribe(res => {
+    this.sxcNg.context.take(1)
+      .subscribe(res => {
+
         // todo: better dev mode detection using environment
         let isDevMode = window.location.hostname === 'localhost';
 
-        if (typeof url === 'string') {
-          url = res.sxc.resolveServiceUrl(<string>url);
+        if (typeof urlOrRequest === 'string') {
+          urlOrRequest = res.sxc.resolveServiceUrl(<string>urlOrRequest);
           this.configure(options, res);
-        }
-        else {
-          url.url = res.sxc.resolveServiceUrl(<string>url.url);
-          this.configure(<Request>url, res);
+        } else {
+          urlOrRequest.url = res.sxc.resolveServiceUrl(<string>urlOrRequest.url);
+          this.configure(<Request>urlOrRequest, res);
         }
 
-        console.log("options", options);
-        console.log('url', url);
-
-        super.request(url)//, options)
+        super.request(urlOrRequest)
           .subscribe(subject.next);
-      })
-      ;//.catch(e => console.error(e))
+      });
+
     return subject.asObservable();
   }
 

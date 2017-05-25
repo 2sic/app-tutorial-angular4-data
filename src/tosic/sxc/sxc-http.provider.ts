@@ -1,14 +1,13 @@
 import { SxcHttp } from './sxc-http';
 import { Http, XHRBackend, RequestOptions } from "@angular/http";
-import { SxcAngular } from "tosic/sxc/SxcAngular";
+import { SxcAngular } from "tosic/sxc/sxc-angular";
 
 export function DnnHttpProviderFactory(backend: XHRBackend, defaultOptions: RequestOptions, sxc: SxcAngular) {
     return new SxcHttp(backend, defaultOptions, sxc);
 }
 
-export let SxcHttpProvider =
-    {
-        provide: Http,
-        useFactory: DnnHttpProviderFactory,
-        deps: [XHRBackend, RequestOptions, SxcAngular]
-    };
+export let SxcHttpProvider = {
+    provide: Http,
+    useFactory: DnnHttpProviderFactory,
+    deps: [XHRBackend, RequestOptions, SxcAngular]
+};
