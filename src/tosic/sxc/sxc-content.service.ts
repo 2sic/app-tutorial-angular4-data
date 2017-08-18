@@ -11,7 +11,6 @@ export class ContentResourceFactory {
   }
 }
 
-@Injectable()
 export class ContentResource {
   constructor(
     private http: Http,
