@@ -26,4 +26,20 @@ export class ApiResource<T> {
     return this.http.get(url, { headers })
       .map(response => <T>response.json());
   }
+
+  post(body: any): Observable<T> {
+    let url = `/DesktopModules/2sxc/API/app-api/${this.ctrl}`;
+    let headers = new Headers();
+    return this.http.post(url, body, { headers })
+      .map(response => <T>response.json());
+  }
+
+  delete(id: number = null): Observable<T> {
+    let url = `/DesktopModules/2sxc/API/app-api/${this.ctrl}`;
+    if (id) url += `/${id}`;
+    let headers = new Headers();
+    return this.http.delete(url, { headers })
+      .map(response => <T>response.json());
+  }
+
 }
